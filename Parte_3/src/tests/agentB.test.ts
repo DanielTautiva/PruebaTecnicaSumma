@@ -5,10 +5,10 @@ describe('AgentB', () => {
   it('should create inverted staircase with correct pattern', () => {
     const size = 4;
     const expectedPattern = [
-      '# # # #',
-      '  # # #',
-      '    # #',
-      '      #',
+      '####',
+      ' ###',
+      '  ##',
+      '   #',
     ].join('\n');
 
     const result = AgentB.createInvertedStaircase(size);

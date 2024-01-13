@@ -5,12 +5,12 @@ let size = 4; // Cambiar según el tamaño de la escalera que desees
 
 AgentsFactory.createAgent(agentType, size);
 
-// agentType = "B"; 
-// size = 4; 
+agentType = "B"; 
+size = 4; 
 
-// AgentsFactory.createAgent(agentType, size);
+AgentsFactory.createAgent(agentType, size);
 
-// let agentType = "C"; 
-// let size = 4; 
+agentType = "C"; 
+size = 4; 
 
-// AgentsFactory.createAgent(agentType, size);
+AgentsFactory.createAgent(agentType, size);

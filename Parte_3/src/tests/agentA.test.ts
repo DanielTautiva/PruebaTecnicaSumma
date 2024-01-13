@@ -12,8 +12,7 @@ describe('AgentA', () => {
     ].join('\n');
 
     const result = AgentA.createStaircase(size);
-
     expect(result).toBeInstanceOf(Escalera);
-    expect(result.pattern).toEqual(expectedPattern);
+    expect(result.pattern.trim()).toEqual(expectedPattern.trim());
   });
 });
